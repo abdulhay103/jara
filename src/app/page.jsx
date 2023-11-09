@@ -1,10 +1,11 @@
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/hero-secriom/Hero";
 
 export default function Home() {
     return (
         <main>
-            <h1>Jara Init1</h1>
-            <h3>ok</h3>
+            <Navbar />
+            <Hero />
         </main>
     );
 }
